@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Kevin&#39;s專案</title>
+      <link href="/2025/04/16/myproject/"/>
+      <url>/2025/04/16/myproject/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Kevin’s-個人檔案"><a href="#Kevin’s-個人檔案" class="headerlink" title="Kevin’s 個人檔案"></a>Kevin’s 個人檔案</h2><h3 id="Project"><a href="#Project" class="headerlink" title="Project"></a>Project</h3><ul><li>Description:</li></ul><ol><li>可以抓取 Flickr 網站的圖片，抓全部相片和博覽館的圖片</li><li>可以抓取 Pinterest 的圖片</li><li>可以抓取 ppt網站的 Beauty, KoreaStar, KoreaDrama 的圖片<br>包括 Python 自動翻頁，禁止通知，抓取圖片的範圍等作法，selenium,requests,beautiful soup…API等工具</li></ol><h3 id="參考資料"><a href="#參考資料" class="headerlink" title="參考資料"></a>參考資料</h3><ul><li><a href="https://requests.readthedocs.io/en/latest/">Requests: HTTP for Humans™</a></li><li><a href="https://selenium-python-zh.readthedocs.io/en/latest/locating-elements.html">Selenium Python中文文檔</a></li><li><a href="https://www.geeksforgeeks.org/python-programming-language-tutorial/?ref=outindfooter">Geeksforgeeks</a></li><li><a href="https://www.w3schools.com/python/default.asp">W3schools Python Tutorial</a></li><li><a href="https://hackmd.io/@aaronlife/python-topic-selenium">動態網頁爬蟲-使用Selenium</a></li><li><a href="https://hackmd.io/@aaronlife/python-topic-beautifulsoup#Python%E7%88%AC%E8%9F%B2%E4%BD%BF%E7%94%A8Beautiful-Soup">Python爬蟲使用Beautiful Soup</a></li></ul><ul><li>[其它]</li></ul><h1 id="Education"><a href="#Education" class="headerlink" title="Education"></a>Education</h1><ul><li><a href="https://www.nycu.edu.tw/nycu/ch/index">NYCU University</a></li><li><a href="https://www.ntou.edu.tw/">NTOU University</a></li></ul><h1 id="Work-Histroy"><a href="#Work-Histroy" class="headerlink" title="Work Histroy"></a>Work Histroy</h1><ul><li>Support Manager</li><li>Support Sr. Engineer</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 專案 </tag>
+            
+            <tag> 個人資料 </tag>
+            
+            <tag> API </tag>
+            
+            <tag> Python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>文件擺在這裡</title>
+      <link href="/2025/04/16/new0415-1/"/>
+      <url>/2025/04/16/new0415-1/</url>
+      
+        <content type="html"><![CDATA[<h3 id="this-is-a-book"><a href="#this-is-a-book" class="headerlink" title="this is a book"></a>this is a book</h3><h4 id="這文件放置的地方"><a href="#這文件放置的地方" class="headerlink" title="這文件放置的地方"></a>這文件放置的地方</h4>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 文件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>明居正教師對中共的評論</title>
+      <link href="/2025/04/16/new0415/"/>
+      <url>/2025/04/16/new0415/</url>
+      
+        <content type="html"><![CDATA[<iframe width="600" height="340" src="https://www.youtube.com/embed/bk45zFrseLQ" title="發燒新聞／以為反台獨實則是滅中華民國　明居正：被中共洗腦卻不自知" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 新聞 </tag>
+            
+            <tag> 台大 </tag>
+            
+            <tag> 反共 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>一本圖書 Pro Git</title>
+      <link href="/2025/04/16/page/"/>
+      <url>/2025/04/16/page/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://iissnan.com/progit/assets/img/pro-git-cover.jpeg" alt="Pro Git Cover"></p><ul><li><a href="https://iissnan.com/progit/html/zh-tw/ch1_0.html">1 開始</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch1_1.html">1.1 關於版本控制</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch1_2.html">1.2 Git 的簡史</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch1_3.html">1.3 Git 基礎要點</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch1_4.html">1.4 安裝Git</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch1_5.html">1.5 初次設定Git</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch1_6.html">1.6 取得說明文件</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch1_7.html">1.7 總結</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch2_0.html">2 Git 基礎</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch2_1.html">2.1 取得Git儲存庫</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch2_2.html">2.2 提交更新到儲存庫</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch2_3.html">2.3 檢視提交的歷史記錄</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch2_4.html">2.4 復原</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch2_5.html">2.5 與遠端協同工作</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch2_6.html">2.6 標籤</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch2_7.html">2.7 提示和技巧</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch2_8.html">2.8 總結</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch3_0.html">3 Git 分支</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch3_1.html">3.1 何謂分支</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch3_2.html">3.2 分支的新建與合併</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch3_3.html">3.3 分支的管理</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch3_4.html">3.4 利用分支進行開發的工作流程</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch3_5.html">3.5 遠端分支</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch3_6.html">3.6 分支的衍合</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch3_7.html">3.7 小結</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch4_0.html">4 伺服器上的 Git</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch4_1.html">4.1 協議</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch4_2.html">4.2 在伺服器上部署 Git</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch4_3.html">4.3 生成 SSH 公開金鑰</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch4_4.html">4.4 架設伺服器</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch4_5.html">4.5 公共訪問</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch4_6.html">4.6 GitWeb</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch4_7.html">4.7 Gitosis</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch4_8.html">4.8 Gitolite</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch4_9.html">4.9 Git 守護進程</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch4_10.html">4.10 Git 託管服務</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch4_11.html">4.11 小結</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch5_0.html">5 分散式 Git</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch5_1.html">5.1 分散式工作流程</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch5_2.html">5.2 為專案作貢獻</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch5_3.html">5.3 專案的管理</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch5_4.html">5.4 小結</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch6_0.html">6 Git 工具</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch6_1.html">6.1 選擇修訂版本</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch6_2.html">6.2 互動式暫存</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch6_3.html">6.3 儲藏 (Stashing)</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch6_4.html">6.4 重寫歷史</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch6_5.html">6.5 使用 Git 做 Debug</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch6_6.html">6.6 子模組 (Submodules)</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch6_7.html">6.7 子樹合併</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch6_8.html">6.8 總結</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch7_0.html">7 Git 客製化</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch7_1.html">7.1 Git 配置</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch7_2.html">7.2 Git 屬性</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch7_3.html">7.3 Git Hooks</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch7_4.html">7.4 Git 強制策略實例</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch7_5.html">7.5 總結</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch8_0.html">8 Git 與其他系統</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch8_1.html">8.1 Git 與 Subversion</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch8_2.html">8.2 遷移到 Git</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch8_3.html">8.3 總結</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch9_0.html">9 Git 內部原理</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch9_1.html">9.1 底層命令 (Plumbing) 和高層命令 (Porcelain)</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch9_2.html">9.2 Git 物件</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch9_3.html">9.3 Git References</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch9_4.html">9.4 Packfiles</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch9_5.html">9.5 The Refspec</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch9_6.html">9.6 傳輸協議</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch9_7.html">9.7 維護及資料復原</a></li><li><a href="https://iissnan.com/progit/html/zh-tw/ch9_8.html">9.8 總結</a></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 圖書 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2025/04/16/hello-world/"/>
+      <url>/2025/04/16/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
