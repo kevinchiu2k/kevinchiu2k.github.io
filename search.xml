@@ -150,7 +150,7 @@
       <link href="/2014/03/16/test001/"/>
       <url>/2014/03/16/test001/</url>
       
-        <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2><span class="label label-info">info</span> this is a header<h3 id="this-is-a-subtitle"><a href="#this-is-a-subtitle" class="headerlink" title="this is a subtitle"></a>this is a subtitle</h3><p class="text-primary"><p>Nullam id dolor id nibh ultricies vehicula ut id elit.</p></p><a class="btn btn-success" href="https://www.google.com">Google</a><div class="alert alert-success"><i class="fa fa-lightbulb-o  float-left"></i>  <p>You successfully read this important alert message.</p></div>]]></content>
+        <content type="html"><![CDATA[<span class="label label-info">info</span> this is information<h2 id="this-is-a-header"><a href="#this-is-a-header" class="headerlink" title="this is a header"></a>this is a header</h2><h3 id="this-is-a-subtitle"><a href="#this-is-a-subtitle" class="headerlink" title="this is a subtitle"></a>this is a subtitle</h3><p class="text-primary"><p>Nullam id dolor id nibh ultricies vehicula ut id elit.</p></p><a class="btn btn-primary" href="https://www.google.com">Google Search</a><div class="alert alert-success"><i class="fa fa-lightbulb-o  float-left"></i>  <p>You successfully read this important alert message.</p></div>]]></content>
       
       
       <categories>
