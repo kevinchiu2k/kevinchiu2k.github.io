@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>test002</title>
+      <link href="/2025/04/18/test002/"/>
+      <url>/2025/04/18/test002/</url>
+      
+        <content type="html"><![CDATA[<pre><code class="language-json">&#123;    "datatable_code": "TWN/APRCD",    "table_code": "TWN/APRCD",    "format": "json",    "opts": &#123;        "columns": [            "coid",            "mdate",            "open_d",            "high_d",            "low_d",            "close_d",            "volume",            "amount",            "adjustment_factor"        ]    &#125;,    "filters": &#123;        "mdate": &#123;            "$gte": "2019-01-01",            "$lte": "2019-01-31"        &#125;,        "coid": &#123;            "$in": [                "Y9999"            ]        &#125;    &#125;&#125;</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Docs </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>如何讓Yolla在Bluestacks內運行的&#39;小地球&#39;發出虛擬聲音？</title>
       <link href="/2025/04/17/study0416-01/"/>
       <url>/2025/04/17/study0416-01/</url>
