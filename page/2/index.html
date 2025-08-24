@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>Kevin&#039;s 部落格</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="Kevin&#039;s 部落格"><meta name="msapplication-TileImage" content="/img/favicon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Kevin&#039;s 部落格"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta property="og:type" content="blog"><meta property="og:title" content="Kevin&#039;s 部落格"><meta property="og:url" content="http://example.com/"><meta property="og:site_name" content="Kevin&#039;s 部落格"><meta property="og:locale" content="zh_TW"><meta property="og:image" content="http://example.com/img/og_image.png"><meta property="article:author" content="Kevin"><meta property="twitter:card" content="summary"><meta property="twitter:image:src" content="http://example.com/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com"},"headline":"Kevin's 部落格","image":["http://example.com/img/og_image.png"],"author":{"@type":"Person","name":"Kevin"},"publisher":{"@type":"Organization","name":"Kevin's 部落格","logo":{"@type":"ImageObject","url":"http://example.com/img/logo.svg"}},"description":""}</script><link rel="icon" href="/img/favicon.svg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"><link data-pjax rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.7.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link data-pjax rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"><!--!--><!--!--><!--!--><style>.pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#3273dc;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}</style><script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js"></script><!--!--><!--!--><script data-ad-client="pub-7166695676365592" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script><!-- hexo injector head_end start --><script>
+  (function () {
+      function switchTab() {
+          if (!location.hash) {
+            return;
+          }
+
+          const id = '#' + CSS.escape(location.hash.substring(1));
+          const $tabMenu = document.querySelector(`.tabs a[href="${id}"]`);
+          if (!$tabMenu) {
+            return;
+          }
+
+          const $tabMenuContainer = $tabMenu.parentElement.parentElement;
+          Array.from($tabMenuContainer.children).forEach($menu => $menu.classList.remove('is-active'));
+          Array.from($tabMenuContainer.querySelectorAll('a'))
+              .map($menu => document.getElementById($menu.getAttribute("href").substring(1)))
+              .forEach($content => $content.classList.add('is-hidden'));
+
+          if ($tabMenu) {
+              $tabMenu.parentElement.classList.add('is-active');
+          }
+          const $activeTab = document.querySelector(id);
+          if ($activeTab) {
+              $activeTab.classList.remove('is-hidden');
+          }
+      }
+      switchTab();
+      window.addEventListener('hashchange', switchTab, false);
+  })();
+  </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo.svg" alt="Kevin&#039;s 部落格" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">家 Home</a><a class="navbar-item" href="/archives">檔案 Archives</a><a class="navbar-item" href="/categories">類別 Categories</a><a class="navbar-item" href="/tags">標籤 Tags</a><a class="navbar-item" href="/about">關於 About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="搜尋" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-6-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2025-08-11T08:59:20.000Z" title="2025/8/11 下午4:59:20">2025-08-11</time>發表</span><span class="level-item"><time dateTime="2025-08-22T08:39:33.915Z" title="2025/8/22 下午4:39:33">2025-08-22</time>更新</span><span class="level-item">8 分鐘讀完 (大約1142個字)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2025/08/11/news-0811-1/">如何產生一把全新的 GPG金鑰</a></p><div class="content"><p><code>[重要]</code> <a target="_blank" rel="noopener" href="https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key">https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key</a></p>
+<h3 id="支援的GPG-金鑰演算法"><a href="#支援的GPG-金鑰演算法" class="headerlink" title="支援的GPG 金鑰演算法"></a><a target="_blank" rel="noopener" href="https://docs.github.com/zh/authentication/managing-commit-signature-verification/generating-a-new-gpg-key#%E6%94%AF%E6%8C%81%E7%9A%84-gpg-%E5%AF%86%E9%92%A5%E7%AE%97%E6%B3%95">支援的GPG 金鑰演算法</a></h3><p>GitHub 支援多種GPG 金鑰演算法。 如果您嘗試新增使用不支援的演算法產生的金鑰，可能會發生錯誤。</p>
+<ul>
+<li>RSA</li>
+<li>ElGamal</li>
+<li>DSA</li>
+<li>ECDH</li>
+<li>ECDSA</li>
+<li>EdDSA</li>
+</ul>
+<h2 id="產生GPG-金鑰"><a href="#產生GPG-金鑰" class="headerlink" title="產生GPG 金鑰"></a><a target="_blank" rel="noopener" href="https://docs.github.com/zh/authentication/managing-commit-signature-verification/generating-a-new-gpg-key#generating-a-gpg-key">產生GPG 金鑰</a></h2><p>注意</p>
+<p>在產生新GPG 金鑰之前，請確保已驗證你的電子郵件地址。 如果尚未驗證電子郵件地址，將無法使用GPG 對提交和標記進行簽署。有關詳細信息，請參閱“<a target="_blank" rel="noopener" href="https://docs.github.com/zh/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/verifying-your-email-address">驗證電子郵件地址</a>”。</p>
+<ol>
+<li><p>下載並安裝適用於作業系統的<a target="_blank" rel="noopener" href="https://www.gnupg.org/download/">GPG 命令列工具</a>。 一般來說，我們建議安裝適用於您的作業系統的最新版本。</p>
+</li>
+<li><p>打開Git Bash。</p>
+</li>
+<li><p>產生GPG 金鑰對。 由於GPG 有多個版本，因此可能需要查閱相關<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Man_page">手冊頁</a>來尋找對應的金鑰產生指令。</p>
+<ul>
+<li>如果您使用的是2.1.17 或更高版本，請貼上以下文字以產生GPG 金鑰對。<br>Shell<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gpg --full-generate-key</span><br></pre></td></tr></table></figure></li>
+<li>如果使用的不是版本2.1.17 或更高版本，則<code>gpg --full-generate-key</code>指令不起作用。 請貼上以下文字並跳到第6 步。<br>Shell<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gpg --default-new-key-algo rsa4096 --gen-key</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li><p>在提示時，指定要產生的金鑰類型，或按<code>Enter</code>鍵接受預設值。</p>
+</li>
+<li><p>在提示時，指定要產生的金鑰大小，或按<code>Enter</code>鍵接受預設值。</p>
+</li>
+<li><p>輸入密鑰的有效時長。 按<code>Enter</code>鍵將指定預設選擇，表示該金鑰不會過期。 除非你需要過期日期，否則我們建議接受此預設值。</p>
+</li>
+<li><p>驗證您的選擇是否正確。</p>
+</li>
+<li><p>輸入您的使用者ID 資訊。<br>注意</p>
+<p>要求你輸入電子郵件地址時，請確保輸入GitHub 帳戶的經過驗證的電子郵件地址。 若要將電子郵件地址保密，請使用GitHub 提供的<code>no-reply</code>電子郵件地址。 有關詳細信息，請參閱“<a target="_blank" rel="noopener" href="https://docs.github.com/zh/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/verifying-your-email-address">驗證電子郵件地址</a>”和“<a target="_blank" rel="noopener" href="https://docs.github.com/zh/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address">設定提交電子郵件地址</a>”。</p>
+</li>
+<li><p>輸入安全密碼。</p>
+</li>
+<li><p>使用<code>gpg --list-secret-keys --keyid-format=long</code>指令列出你擁有其公鑰和私鑰的長形式GPG 金鑰。 簽名提交或標記需要私鑰。<br>Shell</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gpg --list-secret-keys --keyid-format=long</span><br></pre></td></tr></table></figure>
+
+<p>注意</p>
+<p>Linux 上的某些GPG 安裝可能需要改用<code>gpg2 --list-keys --keyid-format LONG</code>查看現有金鑰的清單。 在這種情況下，還需要透過運行<code>git config --global gpg.program gpg2</code>來配置Git 以使用<code>gpg2</code>。</p>
+</li>
+<li><p>從GPG 金鑰清單複製您想要使用的GPG 金鑰ID 的長形式。 在本例中，GPG 金鑰ID 為<code>3AA5C34371567BD2</code>：<br>Shell</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">gpg --list-secret-keys --keyid-format=long</span></span><br><span class="line">/Users/hubot/.gnupg/secring.gpg</span><br><span class="line">------------------------------------</span><br><span class="line">sec   4096R/3AA5C34371567BD2 2016-03-10 [expires: 2017-03-10]</span><br><span class="line">uid                          Hubot &lt;hubot@example.com&gt;</span><br><span class="line">ssb   4096R/4BB6D45482678BE3 2016-03-10</span><br></pre></td></tr></table></figure></li>
+<li><p>貼上下面的文字（替換為您要使用的GPG 金鑰ID）。 在本例中，GPG 金鑰ID 為<code>3AA5C34371567BD2</code>：<br>Shell</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">gpg --armor --export 3AA5C34371567BD2</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">Prints the GPG key ID, <span class="keyword">in</span> ASCII armor format</span></span><br></pre></td></tr></table></figure></li>
+<li><p>複製以<code>-----BEGIN PGP PUBLIC KEY BLOCK-----</code>開頭並以<code>-----END PGP PUBLIC KEY BLOCK-----</code>結尾的GPG 金鑰。</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://docs.github.com/zh/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account">將GPG 金鑰新增至GitHub 帳戶</a>。</p>
+</li>
+</ol>
+<h2 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a><a target="_blank" rel="noopener" href="https://docs.github.com/zh/authentication/managing-commit-signature-verification/generating-a-new-gpg-key#further-reading">延伸閱讀</a></h2><ul>
+<li><a target="_blank" rel="noopener" href="https://docs.github.com/zh/authentication/managing-commit-signature-verification/checking-for-existing-gpg-keys">檢查現有GPG 金鑰</a></li>
+<li><a target="_blank" rel="noopener" href="https://docs.github.com/zh/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account">將GPG 金鑰新增至GitHub 帳戶</a></li>
+<li><a target="_blank" rel="noopener" href="https://docs.github.com/zh/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key">將您的簽名金鑰告知Git</a></li>
+<li><a target="_blank" rel="noopener" href="https://docs.github.com/zh/authentication/managing-commit-signature-verification/associating-an-email-with-your-gpg-key">將電子郵件與GPG 金鑰關聯</a></li>
+<li><a target="_blank" rel="noopener" href="https://docs.github.com/zh/authentication/managing-commit-signature-verification/signing-commits">對提交簽名</a></li>
+<li><a target="_blank" rel="noopener" href="https://docs.github.com/zh/authentication/managing-commit-signature-verification/signing-tags">對標記簽名</a></li>
+</ul>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2025-08-11T08:27:43.000Z" title="2025/8/11 下午4:27:43">2025-08-11</time>發表</span><span class="level-item"><time dateTime="2025-08-23T16:43:08.103Z" title="2025/8/24 上午12:43:08">2025-08-24</time>更新</span><span class="level-item">5 分鐘讀完 (大約760個字)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2025/08/11/news-0811/">如何產生 Windows SSH金鑰</a></p><div class="content"><p><code>[重要]</code> <a target="_blank" rel="noopener" href="https://docs.oracle.com/zh-tw/learn/generate_ssh_keys/index.html#option-3--windows-10">https://docs.oracle.com/zh-tw/learn/generate_ssh_keys/index.html#option-3--windows-10</a></p>
+<h2 id="Windows-10"><a href="#Windows-10" class="headerlink" title="Windows 10"></a>Windows 10</h2><p>請觀看下方影片以瞭解「產生 SSH 金鑰 Windows」選項的簡介。</p>
+<iframe width="480" height="270" src="https://www.youtube.com/embed/BHbfxg_ek3Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p>建立 Windows 的金鑰可能會有趣，因為在 Windows 10 版本之前，<code>ssh-keygen</code> 不是 Windows 的原生公用程式。而且未包括在起始的 Windows 10 組建中。</p>
+<ol>
+<li><p>按一下 Windows 10 系統的圖示&#x2F;影像分割，或在「開始」列中的搜尋欄位中輸入‘powershell’，以開啟 Windows 10 系統上的 <strong>Powershell</strong> 命令視窗。<br><img src="https://docs.oracle.com/zh-tw/learn/generate_ssh_keys/images/keylab-005.png" title=" "></p>
+</li>
+<li><p>在終端機視窗中輸入 <code>ssh-keygen</code> 命令。請特別注意檔案的儲存位置，以便您稍後可以找到該檔案。<code>ssh-keygen</code> 將預設為使用者基本目錄下的標準.ssh 目錄。</p>
+<pre class="highlight"><div class="oj-flex copy-button-container"><span class="oj-flex-item oj-typography-body-xs copy-button-type"></span><span class="copy-button-separator"></span><oj-button class="oj-flex-item copy-button oj-button-sm oj-button oj-button-half-chrome oj-button-text-icon-start oj-enabled oj-default oj-complete"><button class="oj-button-button" aria-label="請將下列範例複製到剪貼簿"><div class="oj-button-label"><span class="oj-button-icon oj-start"><span slot="startIcon" class="oj-ux-ico-copy"></span></span><span><span class="oj-button-text" id=""><span class="copy-button-label oj-typography-body-xs">複製</span></span></span></div></button></oj-button></div><div class="code-content"><code data-highlighted="yes" class="hljs language-undefined">ssh-keygen
+</code></div></pre>
+</li>
+<li><p>按所有提示中的 Enter 鍵接受預設位置、預設檔案名稱，以及不接受密碼詞組。<br><strong>注意</strong>：在 Unix 變異中，通常會為組態檔指定一個內含點 (.) 的資料夾，而在一般檢視中則指定為「隱藏」。不過，點 (.) 並不代表 Windows 資料夾前面的任何特殊項目。因此資料夾會存在，但不會隱藏。<br><img src="https://docs.oracle.com/zh-tw/learn/generate_ssh_keys/images/keylab-006.png" title=" "></p>
+</li>
+<li><p>確認您的金鑰存在且已正確建立。在 Powershell 視窗中輸入下列命令。</p>
+<pre class="highlight"><div class="oj-flex copy-button-container"><span class="oj-flex-item oj-typography-body-xs copy-button-type"></span><span class="copy-button-separator"></span><oj-button class="oj-flex-item copy-button oj-button-sm oj-button oj-button-half-chrome oj-button-text-icon-start oj-enabled oj-default oj-complete"><button class="oj-button-button" aria-label="請將下列範例複製到剪貼簿"><div class="oj-button-label"><span class="oj-button-icon oj-start"><span slot="startIcon" class="oj-ux-ico-copy"></span></span><span><span class="oj-button-text" id=""><span class="copy-button-label oj-typography-body-xs">複製</span></span></span></div></button></oj-button></div><div class="code-content"><code data-highlighted="yes" class="hljs language-undefined">cd .ssh
+ls
+cat id_rsa.pub
+</code></div></pre>
+
+<p><img src="https://docs.oracle.com/zh-tw/learn/generate_ssh_keys/images/keylab-007.png" title=" "><br>您現在已經有使用中的 SSH 金鑰組，可以使用它來與雲端中的執行處理進行安全通訊。除非您瞭解執行的作業，否則請勿與任何人共用<em>私密金</em>鑰 <code>id_rsa</code>。您只需共用<em>及複製公開金鑰</em><code>&lt;span&gt; &lt;/span&gt;id_rsa.pub</code> 即可。</p>
+</li>
+<li><p>另請注意，如果您選擇將金鑰的內容複製&#x2F;貼到實驗室的某些對話方塊中，您將需要透過 Powershell、Explorer 或其他目錄工具在 Windows 中尋找檔案，然後開啟公開金鑰檔案來複製其內容。下方範例使用 Powershell 來 <code>cat</code> 內容。您可以使用滑鼠選取文字，但無法使用複製&#x2F;貼上命令。使用&lt;<code>&lt;ctrl-c&gt;</code> 將內容複製到剪貼簿，以貼到其他應用程式對話方塊。<br><img src="https://docs.oracle.com/zh-tw/learn/generate_ssh_keys/images/keylab-008.png" title=" "><br>或者，您也可以使用記事本、Wordpad 或其他文字編輯器來開啟檔案。<br><strong>注意</strong>：請勿使用 MS Word 或任何其他 Rich Text 編輯器，因為它們可能會新增可轉換金鑰的額外格式字元。<br><img src="https://docs.oracle.com/zh-tw/learn/generate_ssh_keys/images/keylab-009.png" title=" "></p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://docs.microsoft.com/en-us/powershell/">按一下此處即可取得 PowerShell for Windows 的詳細資訊</a></li>
+<li><a target="_blank" rel="noopener" href="https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement">按一下此處即可取得 OpenSSH Key Management for Windows 的詳細資訊</a></li>
+</ul>
+</li>
+</ol>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2025-08-07T07:32:48.000Z" title="2025/8/7 下午3:32:48">2025-08-07</time>發表</span><span class="level-item"><time dateTime="2025-08-22T08:39:50.340Z" title="2025/8/22 下午4:39:50">2025-08-22</time>更新</span><span class="level-item">7 分鐘讀完 (大約1060個字)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2025/08/07/news-0807/">13個Win快速鍵，Windows工作效率提升10倍！</a></p><div class="content"><p><code>[必讀]</code> <a target="_blank" rel="noopener" href="https://www.mytechgirl.com/tw/windows/windows-shortcut-keys-mtg6688.html">https://www.mytechgirl.com/tw/windows/windows-shortcut-keys-mtg6688.html</a></p>
+<h2 id="開啟Windows設定Win-I鍵"><a href="#開啟Windows設定Win-I鍵" class="headerlink" title="開啟Windows設定Win+I鍵"></a>開啟Windows設定Win+I鍵</h2><p>在鍵盤上按快捷鍵Windows+I鍵，可以快速開啟Windows系統設定介面，您可以透過Windows設定調整網路、時間、應用程式等，具體包括下列一些分類：</p>
+<ul>
+<li><strong>系統</strong>——顯示器、音效、通知、電源等。</li>
+<li><strong>裝置</strong>——藍牙、印表機、滑鼠等。</li>
+<li><strong>電話</strong>——連線您的Android、iPhone裝置。</li>
+<li><strong>網路和網際網路</strong>——Wi-Fi、飛航模式、VPN等。</li>
+<li><strong>個人化</strong>——背景、鎖定畫面、色彩等。</li>
+<li><strong>應用程式</strong>——解除安裝、預設值、選用功能等。</li>
+<li><strong>帳戶</strong>——您的帳戶、電子郵件、同步設定、工作、其他使用者等。</li>
+<li><strong>時間與語言</strong>——語音、地區、日期等。</li>
+<li><strong>遊戲</strong>——Xbox Game Bar、擷取、遊戲模式等。</li>
+<li><strong>輕鬆存取</strong>——朗讀程式、放大鏡、高對比等。</li>
+<li><strong>搜尋</strong>——尋找我的檔案、權限等。</li>
+<li><strong>隱私權</strong>——位置、攝影機、麥克風等。</li>
+<li><strong>更新與安全性</strong>——Windows UpDate、復原、備份等。</li>
+</ul>
+<p><img src="https://www.mytechgirl.com/tw/windows/images/windows-shortcut-keys-mtg6688/windows-i.webp" alt="Windows系統設定"></p>
+<p>這裡有多達13種針對Windows系統的不同設定，您可以輕鬆透過按Windows+I鍵開啟，並呈現在您的眼前，根據自身需求選擇需要的系統設定。</p>
+<h2 id="快速打開放大文字設定Win-U鍵"><a href="#快速打開放大文字設定Win-U鍵" class="headerlink" title="快速打開放大文字設定Win+U鍵"></a>快速打開放大文字設定Win+U鍵</h2><p>在鍵盤上按快捷鍵Windows+U鍵，可以快速開啟顯示器設定，該設定可以讓您更容易看到顯示器上的內容。</p>
+<p>如今隨著社會的不斷發展，不管是桌機顯示器還是筆電顯示器解析度都變得越來越大，當您把解析度調整到最佳狀態，意味著顯示文字會變得很小，雖然文字很清晰，眼睛看文字會變得非常吃力，如果長期處於這種狀態，會造成視疲勞甚至會引發近視風險。</p>
+<p>而解決辦法就是在鍵盤上按Win+U鍵，調整文字在螢幕上顯示的大小，以本人的顯示器為例，22英吋螢幕，解析度1920*1080為最佳。而這種顯示狀態下觀看文字，眼睛會非常疲憊，所以我會放大文字到130%的大小，這樣眼睛會更舒服一些。</p>
+<p>具體調整步驟如下：</p>
+<p>**步驟1：**在鍵盤上按快捷鍵Windows+U鍵，將會彈出系統設定顯示器介面，在介面中使用滑鼠拉動滑塊，文字範圍大小從100%至225%，最左邊為100%正常解析度大小，最右邊為225%大小文字，您可以根據自身視覺舒適度來調整。</p>
+<p><img src="https://www.mytechgirl.com/tw/windows/images/windows-shortcut-keys-mtg6688/windows-u.webp" alt="Windows顯示器放大文字"></p>
+<h2 id="打開電腦常用管理工具列表Win-X鍵"><a href="#打開電腦常用管理工具列表Win-X鍵" class="headerlink" title="打開電腦常用管理工具列表Win+X鍵"></a>打開電腦常用管理工具列表Win+X鍵</h2><p>在鍵盤上按快捷鍵Windows+X鍵，可以開啟Windows系統常用管理工具集合，每個工具名稱選項後面都有一個字母，當按Win+X鍵後，再按對應的工具名稱替代字母，即可開啟該工具介面。這些都很實用，我把這些工具選項列在下面，僅供參考：</p>
+<ul>
+<li>應用程式與功能（F）</li>
+<li>電源選項（O）</li>
+<li>事件檢視器（V）</li>
+<li>系統（Y）</li>
+<li>裝置管理員（M）</li>
+<li>網路連線（W）</li>
+<li>磁碟管理（K）</li>
+<li>電腦管理（G）</li>
+<li>Windows PowerShell（I）</li>
+<li>Windows PowerShell 系統管理員（A）</li>
+<li>工作管理員（T）</li>
+<li>設定（N）</li>
+<li>檔案總管（E）</li>
+<li>搜尋（S）</li>
+<li>執行（R）</li>
+<li>關機或登出（U）&gt;登出（I）；睡眠（S）；關機（U）；重新啟動（R）</li>
+<li>桌面（D）</li>
+</ul>
+<p><img src="https://www.mytechgirl.com/tw/windows/images/windows-shortcut-keys-mtg6688/windows-x.webp" alt="Windows常用系統管理工具"></p>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2025-08-06T08:26:30.000Z" title="2025/8/6 下午4:26:30">2025-08-06</time>發表</span><span class="level-item"><time dateTime="2025-08-19T07:06:44.568Z" title="2025/8/19 下午3:06:44">2025-08-19</time>更新</span><span class="level-item">幾秒讀完 (大約64個字)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2025/08/06/news-0806-1/">使用 Dillinger 做 markdown 的文件</a></p><div class="content"><ul>
+<li><p>簡單的從網路用 Dillinger 直接編寫 markdown 文件<br><img src="https://i.ibb.co/sdkQcgNZ/dilligener-img.png"></p>
+</li>
+<li><p>做好了，把他存放到 google drive底下，或是支援其它地方，例如：one drive, github… 也可以<br><img src="https://i.ibb.co/fdGnYSf9/Google-driver-img.png"></p>
+</li>
+</ul>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2025-08-06T07:52:45.000Z" title="2025/8/6 下午3:52:45">2025-08-06</time>發表</span><span class="level-item"><time dateTime="2025-08-22T08:40:32.658Z" title="2025/8/22 下午4:40:32">2025-08-22</time>更新</span><span class="level-item">4 分鐘讀完 (大約584個字)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2025/08/06/news-0806/">Windows 11下載繞過TPM 2.0【Windows 11安裝教學】</a></p><div class="content"><h3 id="Windows-11下載繞過TPM-2-0【Windows-11安裝教學】"><a href="#Windows-11下載繞過TPM-2-0【Windows-11安裝教學】" class="headerlink" title="Windows 11下載繞過TPM 2.0【Windows 11安裝教學】"></a>Windows 11下載繞過TPM 2.0【Windows 11安裝教學】</h3><p><a target="_blank" rel="noopener" href="https://tw.easeus.com/partition-manager-tips/windows-11-download-without-tpm.html">https://tw.easeus.com/partition-manager-tips/windows-11-download-without-tpm.html</a></p>
+<h2 id="如何配置電腦符合除了TPM-2-0以外的其他要求"><a href="#如何配置電腦符合除了TPM-2-0以外的其他要求" class="headerlink" title="如何配置電腦符合除了TPM 2.0以外的其他要求"></a>如何配置電腦符合除了TPM 2.0以外的其他要求</h2><p>在開始之前，我們需要確保您的裝置滿足另外七個條件。EaseUS Windows 11升級檢查程式可以幫您進行預先檢查。該程式可以讓您知道所有相容與不相容的內容。</p>
+<p><strong>步驟 1.</strong> 下載<a target="_blank" rel="noopener" href="https://tw.easeus.com/campaign/2021-windows11-update-solutions.html">EaseUS Windows 11升級檢查程式</a>。</p>
+<p><strong>步驟 2.</strong> 點擊<strong>立即檢查</strong>按鈕開始檢查。</p>
+<p><img src="https://tw.easeus.com/images/tw/knowledge-center/windows11-upgrade-checker-1.png" alt="點擊立即檢查"></p>
+<p>**步驟 3.**Windows 11相容性結果將很快出現，結果將顯示所有不相容和相容的配置項。</p>
+<p><img src="https://tw.easeus.com/images/tw/knowledge-center/windows11-upgrade-checker-2.png" alt="檢查windows 11相容結果"></p>
+<p>如果<strong>開機方式</strong>（當前為Legacy BIOS）、<strong>磁碟分割樣式</strong>（當前為MBR）和<strong>安全開機</strong>（當前為停用）的檢測結果不合格，您可以在EaseUS Partition Master的幫助下對您的電腦進行一些調整，該軟體為最推薦的第三方<a target="_blank" rel="noopener" href="https://tw.easeus.com/partition-manager/partition-master.html">磁碟分割管理工具</a>。</p>
+<p><em>***由於UEFI韌體是基於GPT磁碟，您可以透過將當前MBR磁碟轉換成所需的GPT磁碟來調整電腦，使電腦支援UEFI。</em></p>
+<p><a target="_blank" rel="noopener" href="https://down.easeus.com/product/epm_trial"><strong>免費下載</strong>Windows 11&#x2F;10&#x2F;8.1&#x2F;8&#x2F;7&#x2F;Vista&#x2F;XP</a></p>
+<p>**步驟 1：**在 Windows 電腦上下載並啟動 EaseUS Partition Master。</p>
+<p><img src="https://tw.easeus.com/images/tw/epm-product-description/Convert-MBR-to-GPT-1.jpg" alt="MBR轉GPT - 步驟一"></p>
+<p>**步驟 2：**右鍵點選要轉換的 MBR 磁碟，並選擇「初始化為 GPT 磁碟」。</p>
+<p><img src="https://tw.easeus.com/images/tw/epm-product-description/Convert-MBR-to-GPT-2.jpg" alt="MBR轉GPT - 步驟二"></p>
+<p>**步驟3：**找到並點選工具欄上的「執行操作」按鈕，選擇「應用」開始轉換。</p>
+<p><img src="https://tw.easeus.com/images/tw/epm-product-description/Convert-MBR-to-GPT-3.jpg" alt="MBR轉GPT - 步驟三"></p>
+<p>接下來，按照正確的路徑將Legacy變更為UEFI，並啟用安全開機。</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://tw.easeus.com/partition-manager-tips/convert-mbr-to-gpt-windows11.html#part5">如何變更開機模式為UEFI</a></li>
+<li><a target="_blank" rel="noopener" href="https://tw.easeus.com/partition-manager-tips/convert-mbr-to-gpt-windows11.html#part6">如何啟用Windows安全開機</a></li>
+</ul>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2025-08-03T14:05:14.000Z" title="2025/8/3 下午10:05:14">2025-08-03</time>發表</span><span class="level-item"><time dateTime="2025-08-19T07:29:39.155Z" title="2025/8/19 下午3:29:39">2025-08-19</time>更新</span><span class="level-item">2 分鐘讀完 (大約277個字)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2025/08/03/news-0803/">使用Microsoft Word 可以免費在線上編輯文件</a></p><div class="content"><h2 id="使用Microsoft-Word-可以免費在線上編輯文件"><a href="#使用Microsoft-Word-可以免費在線上編輯文件" class="headerlink" title="使用Microsoft Word 可以免費在線上編輯文件"></a>使用Microsoft Word 可以免費在線上編輯文件</h2><ol>
+<li><p>一開始建立一個Microsoft Windows 登入的帳號</p>
+</li>
+<li><p>步驟如下：<br>2.1 <a target="_blank" rel="noopener" href="https://www.microsoft.com/zh-tw/microsoft-365/word">免費註冊</a><br>2.2 <a target="_blank" rel="noopener" href="https://login.live.com/oauth20_authorize.srf?client_id=2821b473-fe24-4c86-ba16-62834d6e80c3&scope=User.Read+openid+profile+offline_access&redirect_uri=https://word.cloud.microsoft&response_type=code&state=eyJpZCI6IjAxOTg3MGExLTFhMmUtNzI3My1hZDRkLTU2OTgwZDBhNmE3OSIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoicmVkaXJlY3QifX0=%7CwdOrigin=MARKETING.WORD.SIGNUP&response_mode=fragment&nonce=019870a1-1a2f-7be1-9e53-35dafce02681&prompt=create&code_challenge=TNM4ts8OW2uFUSHiNTQxWn7B6o5vAgmaGwVmLrlHnfE&code_challenge_method=S256&x-client-SKU=msal.js.browser&x-client-Ver=3.26.1&uaid=edadd474c3be42aea434fa6fb32b7f73&msproxy=1&issuer=mso&tenant=consumers&ui_locales=zh-Hant&client_info=1&epct=PAQABDgEAAABVrSpeuWamRam2jAF1XRQE9jxdfq9CELNU20Ul1CVEeteDblACd8gxXMbkNQQMrG1FkIY98SxKNi1nP3i8GIRzZ8RlQTmvDuakQU8NIPmrGRwSGb9Ymx4gdpJzEofKcGpczqlxrd110Jq7kZxPJ_U84_Lp4UJ_50vk837wXqLyfntyGNkJjkpd1vbZIgyR5xmgfkHygdH527wBh6rgZQKGECtXKrqlzpt1eMzOWCUNXCAA&jshs=0&signup=1&claims=%7B%22access_token%22:%7B%22xms_cc%22:%7B%22values%22:%5B%22CP1%22%5D%7D%7D%7D">註冊一個 Windows 帳號</a></p>
+</li>
+</ol>
+<p><img src="https://i.ibb.co/prPCSRVp/1-file.png" alt="image"></p>
+<img src="https://i.ibb.co/1CLddcD/2-file.png" width="350">
+
+<ol>
+<li><p>登入Windows (這和google雲端是一樣的做法)</p>
+</li>
+<li><p>直接進入Office Word 的雲端版(免費)</p>
+</li>
+</ol>
+<p><a target="_blank" rel="noopener" href="https://word.cloud.microsoft/open/onedrive/?docId=463E14C7DB943BCF!s41ef41e2b0034c4eacd10d5df011e3a1&driveId=463E14C7DB943BCF">進入雲端 Office Word</a></p>
+<p><img src="https://i.ibb.co/k2TXfm93/3-file.png"></p>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2025-06-19T07:24:36.000Z" title="2025/6/19 下午3:24:36">2025-06-19</time>發表</span><span class="level-item"><time dateTime="2025-08-23T16:45:04.281Z" title="2025/8/24 上午12:45:04">2025-08-24</time>更新</span><span class="level-item">幾秒讀完 (大約33個字)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2025/06/19/news-0619/">錢都白花了！資深醫師揭秘「最強漱口水」，鹽水加一滴這個，告別口臭、蛀牙，連感冒都少了！</a></p><div class="content"><p><code>[重要]</code> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=V80mCur-5pM">鹽水加一滴這個，告別口臭、蛀牙，連感冒都少了</a></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V80mCur-5pM?si=TT0ZBCNs43qv0eES" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2025-06-09T06:59:57.000Z" title="2025/6/9 下午2:59:57">2025-06-09</time>發表</span><span class="level-item"><time dateTime="2025-08-19T07:34:04.305Z" title="2025/8/19 下午3:34:04">2025-08-19</time>更新</span><span class="level-item">2 分鐘讀完 (大約292個字)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2025/06/09/news-0609/">使用uv管理Python環境</a></p><div class="content"><p><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F76ldxpilp9r9co81fwug.png"></p>
+<h4 id="使用-uv-管理-Python-環境"><a href="#使用-uv-管理-Python-環境" class="headerlink" title="使用 uv 管理 Python 環境"></a><a target="_blank" rel="noopener" href="https://dev.to/codemee/shi-yong-uv-guan-li-python-huan-jing-53hg"><code>使用 uv 管理 Python 環境</code></a></h4><p><code>uv</code><br>要管理 Python 環境，你可以使用多種工具達成，像是使用 pyenv 來安裝不同版本的 Python、venv 或是 pipenv 管理虛擬環境、poetry 管理專案，這些工具都可以善盡個別的工作，不過使用起來就是分開的工具，而 uv 則是提供單一工具來完成上述所有工作，並且速度快，簡單易用。</p>
+<p><code>安裝 uv</code><br>uv 本身並不需要 Python，所以不建議用 pip 或是 pipx 安裝，這樣都會跟特定的 Python 環境綁在一起，Windows 上就直接透過 PowerSehll 安裝即可：</p>
+<blockquote>
+<p>powershell -ExecutionPolicy ByPass -c “irm <a target="_blank" rel="noopener" href="https://astral.sh/uv/install.ps1">https://astral.sh/uv/install.ps1</a> | iex”</p>
+</blockquote>
+<p>或是<a target="_blank" rel="noopener" href="https://docs.astral.sh/uv/getting-started/installation/#scoop">透過 scoop</a> 等軟體管理工具安裝：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scoop install uv</span><br></pre></td></tr></table></figure>
+
+<p>本文都以 Windows 平台在 PowerShell 下操作示範，如果是其它平台，請自行置換成對應的指令。</p>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2025-05-27T11:39:21.000Z" title="2025/5/27 下午7:39:21">2025-05-27</time>發表</span><span class="level-item"><time dateTime="2025-08-08T07:49:01.680Z" title="2025/8/8 下午3:49:01">2025-08-08</time>更新</span><span class="level-item">3 分鐘讀完 (大約398個字)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2025/05/27/news-0527/">如何暫停 Windows 11更新（永久阻止）</a></p><div class="content"><p>微軟已經發表了Windows 11，新系統提供了更簡潔和更有創造性的空間，您可以透過這樣的新鮮體驗來追求自己的喜好。儘管微軟表示，很有必要使用最新的功能和安全補丁來更新您的Windows 11，但無論出於什麼原因，您都可以停用Windows更新。（<strong>延伸閱讀：</strong><a target="_blank" rel="noopener" href="https://tw.easeus.com/partition-manager-tips/check-update-to-windows11.html">如何知道能否更新Windows 11</a>）</p>
+<h2 id="如何停用Windows-11更新（完整教學）"><a href="#如何停用Windows-11更新（完整教學）" class="headerlink" title="如何停用Windows 11更新（完整教學）"></a>如何停用Windows 11更新（完整教學）</h2><p>微軟已明確表示，Windows 11的更新不會在發佈時強制要求Windows 10使用者。如果您想查看Windows 11的更新，您需要手動進入「設定」&gt;「更新與安全性」&gt;「Windows Update」。</p>
+<p>但是，有部分使用者已經啟用了Windows自動更新功能，希望可以阻止這個功能以釋放Windows 11的磁碟空間。所以，我們在這裡為您提供有效的解決方案，教您暫停Windows 11自動更新。</p>
+<ol>
+<li><a target="_blank" rel="noopener" href="https://tw.easeus.com/computer-instruction/stop-windows-11-update.html#1">1. Windows 11中關閉Windows更新服務</a></li>
+<li><a target="_blank" rel="noopener" href="https://tw.easeus.com/computer-instruction/stop-windows-11-update.html#2">2. 使用群組原則編輯器阻止Windows 11更新</a></li>
+<li><a target="_blank" rel="noopener" href="https://tw.easeus.com/computer-instruction/stop-windows-11-update.html#3">3. 暫停Windows 11的每週更新</a></li>
+<li><a target="_blank" rel="noopener" href="https://tw.easeus.com/computer-instruction/stop-windows-11-update.html#4">4. 使用登錄編輯程式停止Windows 11更新</a></li>
+<li><a target="_blank" rel="noopener" href="https://tw.easeus.com/computer-instruction/stop-windows-11-update.html#5">5. 使用第三方工具停用Windows 11更新</a></li>
+</ol>
+<p><a target="_blank" rel="noopener" href="https://tw.easeus.com/computer-instruction/stop-windows-11-update.html">https://tw.easeus.com/computer-instruction/stop-wine</a></p>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2025-05-02T07:18:13.000Z" title="2025/5/2 下午3:18:13">2025-05-02</time>發表</span><span class="level-item"><time dateTime="2025-08-23T16:45:41.964Z" title="2025/8/24 上午12:45:41">2025-08-24</time>更新</span><span class="level-item">幾秒讀完 (大約42個字)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2025/05/02/news-0503/">如何使用git &amp; github</a></p><div class="content"><h2 id="如何使用Git-Github"><a href="#如何使用Git-Github" class="headerlink" title="如何使用Git &amp; Github"></a>如何使用Git &amp; Github</h2><h4 id="程式與網頁開發者必備技能！Git-和-GitHub-零基礎快速上手，輕鬆掌握版本控制的要訣！"><a href="#程式與網頁開發者必備技能！Git-和-GitHub-零基礎快速上手，輕鬆掌握版本控制的要訣！" class="headerlink" title="程式與網頁開發者必備技能！Git 和 GitHub 零基礎快速上手，輕鬆掌握版本控制的要訣！"></a>程式與網頁開發者必備技能！Git 和 GitHub 零基礎快速上手，輕鬆掌握版本控制的要訣！</h4><iframe width="560" height="315" src="https://www.youtube.com/embed/FKXRiAiQFiY?si=azUPn7RkDsj9aITM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></article></div><nav class="pagination" role="navigation" aria-label="pagination"><div class="pagination-previous"><a href="/">上一頁</a></div><div class="pagination-next"><a href="/page/3/">下一頁</a></div><ul class="pagination-list is-hidden-mobile"><li><a class="pagination-link" href="/">1</a></li><li><a class="pagination-link is-current" href="/page/2/">2</a></li><li><a class="pagination-link" href="/page/3/">3</a></li></ul></nav></div><div class="column column-left is-4-tablet is-4-desktop is-3-widescreen  order-1"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar is-rounded" src="/img/p006-dog.jpg" alt="Kevin"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">Kevin</p><p class="is-size-6 is-block">網站管理員</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>Taiwan 台灣</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">文章</p><a href="/archives/"><p class="title">29</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">分類</p><a href="/categories/"><p class="title">6</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">標籤</p><a href="/tags/"><p class="title">48</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/" target="_blank" rel="me noopener">追蹤</a></div><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="me noopener" title="Github" href="https://github.com/"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="me noopener" title="Facebook" href="https://facebook.com"><i class="fab fa-facebook"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="me noopener" title="Twitter" href="https://twitter.com"><i class="fab fa-twitter"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="me noopener" title="Dribbble" href="https://dribbble.com"><i class="fab fa-dribbble"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="me noopener" title="RSS" href="https://rss.com/"><i class="fas fa-rss"></i></a></div></div></div><!--!--><div class="card widget" data-type="links"><div class="card-content"><div class="menu"><h3 class="menu-label">連結</h3><ul class="menu-list"><li><a class="level is-mobile" href="https://hexo.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Hexo</span></span><span class="level-right"><span class="level-item tag">hexo.io</span></span></a></li><li><a class="level is-mobile" href="https://bulma.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Bulma</span></span><span class="level-right"><span class="level-item tag">bulma.io</span></span></a></li></ul></div></div></div><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">分類</h3><ul class="menu-list"><li><a class="level is-mobile" href="/categories/Docs/"><span class="level-start"><span class="level-item">Docs</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/categories/Youtube/"><span class="level-start"><span class="level-item">Youtube</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/categories/hexo/"><span class="level-start"><span class="level-item">hexo</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/test/"><span class="level-start"><span class="level-item">test</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/youtube/"><span class="level-start"><span class="level-item">youtube</span></span><span class="level-end"><span class="level-item tag">1</span></span></a><ul><li><a class="level is-mobile" href="/categories/youtube/windows/"><span class="level-start"><span class="level-item">windows</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></li></ul></div></div></div><div class="card widget" data-type="tags"><div class="card-content"><div class="menu"><h3 class="menu-label">標籤</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/tags/Activate/"><span class="tag">Activate</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Bluestacks/"><span class="tag">Bluestacks</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/CPU/"><span class="tag">CPU</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/GPG-key/"><span class="tag">GPG key</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Install/"><span class="tag">Install</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Library/"><span class="tag">Library</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Office/"><span class="tag">Office</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/PicGO/"><span class="tag">PicGO</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Powershell/"><span class="tag">Powershell</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Python/"><span class="tag">Python</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Qexo/"><span class="tag">Qexo</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/SSH/"><span class="tag">SSH</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/TPM2-0/"><span class="tag">TPM2.0</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Unattended/"><span class="tag">Unattended</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Windows/"><span class="tag">Windows</span><span class="tag">6</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Windows-11/"><span class="tag">Windows 11</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/YR/"><span class="tag">YR</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/YT/"><span class="tag">YT</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Yazi/"><span class="tag">Yazi</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Yolla/"><span class="tag">Yolla</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Youtube/"><span class="tag">Youtube</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/dentis/"><span class="tag">dentis</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/doctor/"><span class="tag">doctor</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/git/"><span class="tag">git</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/github/"><span class="tag">github</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/hexo/"><span class="tag">hexo</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/hot-key/"><span class="tag">hot key</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/markdown/"><span class="tag">markdown</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/office/"><span class="tag">office</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/private-key/"><span class="tag">private key</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/public-key/"><span class="tag">public key</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/python/"><span class="tag">python</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/ssh/"><span class="tag">ssh</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/update/"><span class="tag">update</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/uv/"><span class="tag">uv</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/uv-exe/"><span class="tag">uv.exe</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/windows/"><span class="tag">windows</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/word/"><span class="tag">word</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/youtube/"><span class="tag">youtube</span><span class="tag">3</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E5%80%8B%E4%BA%BA%E8%B3%87%E6%96%99/"><span class="tag">個人資料</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E5%8F%8D%E5%85%B1/"><span class="tag">反共</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E5%8F%B0%E5%A4%A7/"><span class="tag">台大</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E5%9C%96%E6%9B%B8/"><span class="tag">圖書</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E5%B0%88%E6%A1%88/"><span class="tag">專案</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E5%B0%8F%E5%9C%B0%E7%90%83/"><span class="tag">小地球</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E5%BD%B1%E7%89%87/"><span class="tag">影片</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E6%94%BF%E6%B2%BB%E7%B3%BB/"><span class="tag">政治系</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E6%96%B0%E8%81%9E/"><span class="tag">新聞</span><span class="tag">1</span></a></div></div></div></div></div><div class="card widget" data-type="subscribe-email"><div class="card-content"><div class="menu"><h3 class="menu-label">訂閱 Email</h3><form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open(&#039;https://feedburner.google.com/fb/a/mailverify?uri=&#039;,&#039;popupwindow&#039;,&#039;scrollbars=yes,width=550,height=520&#039;);return true"><input type="hidden" value="" name="uri"><input type="hidden" name="loc" value="en_US"><div class="field has-addons"><div class="control has-icons-left is-expanded"><input class="input" name="email" type="email" placeholder="Email"><span class="icon is-small is-left"><i class="fas fa-envelope"></i></span></div><div class="control"><input class="button" type="submit" value="訂閱"></div></div></form></div></div></div><div class="column-right-shadow is-hidden-widescreen"></div></div><div class="column column-right is-4-tablet is-4-desktop is-3-widescreen is-hidden-touch is-hidden-desktop-only order-3"><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">最新文章</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2025-08-24T04:55:25.000Z">2025-08-24</time></p><p class="title"><a href="/2025/08/24/news-0824/">如何安裝hexo安知魚的部落格</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2025-08-23T15:12:37.000Z">2025-08-23</time></p><p class="title"><a href="/2025/08/23/news-0822/">利用 cloudfare 建立hexo部落格到 Github 的影片</a></p><p class="categories"><a href="/categories/hexo/">hexo</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2025-08-23T08:38:55.000Z">2025-08-23</time></p><p class="title"><a href="/2025/08/23/news-0823/">第一篇文章</a></p><p class="categories"><a href="/categories/test/">test</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2025-08-22T14:57:43.515Z">2025-08-22</time></p><p class="title"><a href="/2025/08/22/hello-world/">Hello World</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2025-08-21T13:02:05.000Z">2025-08-21</time></p><p class="title"><a href="/2025/08/21/news-0821/">Qexo 一個美觀、強大的靜態部落格管理器 Hexo、Hugo、Valaxy 託管商 Github、Gitlab、本地/cloudflare 免費</a></p></div></article></div></div><div class="card widget" data-type="archives"><div class="card-content"><div class="menu"><h3 class="menu-label">彙整</h3><ul class="menu-list"><li><a class="level is-mobile" href="/archives/2025/08/"><span class="level-start"><span class="level-item">八月 2025</span></span><span class="level-end"><span class="level-item tag">16</span></span></a></li><li><a class="level is-mobile" href="/archives/2025/06/"><span class="level-start"><span class="level-item">六月 2025</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/archives/2025/05/"><span class="level-start"><span class="level-item">五月 2025</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/archives/2025/04/"><span class="level-start"><span class="level-item">四月 2025</span></span><span class="level-end"><span class="level-item tag">8</span></span></a></li></ul></div></div></div><div class="card widget" data-type="adsense"><div class="card-content"><div class="menu"><h3 class="menu-label">廣告</h3><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="pub-7166695676365592" data-ad-slot="xxx" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div></div></div></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/logo.svg" alt="Kevin&#039;s 部落格" height="28"></a><p class="is-size-7"><span>&copy; 2025 Kevin</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p><p class="is-size-7">© 2025</p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("zh-tw");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script data-pjax src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="回到頁首" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script data-pjax src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js" defer></script><script>window.addEventListener("load", () => {
+      window.cookieconsent.initialise({
+        type: "info",
+        theme: "edgeless",
+        static: false,
+        position: "bottom-left",
+        content: {
+          message: "此網站使用Cookie來改善您的體驗。",
+          dismiss: "知道了！",
+          allow: "允許使用Cookie",
+          deny: "拒絕",
+          link: "了解更多",
+          policy: "Cookie政策",
+          href: "https://www.cookiesandyou.com/",
+        },
+        palette: {
+          popup: {
+            background: "#edeff5",
+            text: "#838391"
+          },
+          button: {
+            background: "#4b81e8"
+          },
+        },
+      });
+    });</script><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js"></script><script src="/js/pjax.js"></script><!--!--><!--!--><!--!--><script data-pjax src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="請輸入關鍵字..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script data-pjax src="/js/insight.js" defer></script><script data-pjax>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"請輸入關鍵字...","untitled":"(無標題)","posts":"文章","pages":"頁面","categories":"分類","tags":"標籤"});
+        });</script></body></html>
