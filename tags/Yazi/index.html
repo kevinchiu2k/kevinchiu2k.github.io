@@ -29,7 +29,7 @@
       switchTab();
       window.addEventListener('hashchange', switchTab, false);
   })();
-  </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo.svg" alt="Kevin&#039;s 部落格" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">家 Home</a><a class="navbar-item" href="/archives">檔案 Archives</a><a class="navbar-item" href="/categories">類別 Categories</a><a class="navbar-item" href="/tags">標籤 Tags</a><a class="navbar-item" href="/about">關於 About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="搜尋" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-6-widescreen"><div class="card"><div class="card-content"><nav class="breadcrumb" aria-label="breadcrumbs"><ul><li><a href="/tags/">標籤</a></li><li class="is-active"><a href="#" aria-current="page">Yazi</a></li></ul></nav></div></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2025-08-13T09:45:08.000Z" title="2025/8/13 下午5:45:08">2025-08-13</time>發表</span><span class="level-item"><time dateTime="2025-08-26T07:05:53.938Z" title="2025/8/26 下午3:05:53">2025-08-26</time>更新</span><span class="level-item">1 分鐘讀完 (大約130個字)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2025/08/13/news-0813/">利用 Windows 的 Powershell 安裝 Yazi (是一種 terminal file manager)</a></p><div class="content"><p>使用 Powershell 安裝 Yazi (是一種 <em><strong>terminal file manager</strong></em> ，可以看圖片、影片)</p>
+  </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo.svg" alt="Kevin&#039;s 部落格" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">家 Home</a><a class="navbar-item" href="/archives">檔案 Archives</a><a class="navbar-item" href="/categories">類別 Categories</a><a class="navbar-item" href="/tags">標籤 Tags</a><a class="navbar-item" href="/about">關於 About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="搜尋" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-6-widescreen"><div class="card"><div class="card-content"><nav class="breadcrumb" aria-label="breadcrumbs"><ul><li><a href="/tags/">標籤</a></li><li class="is-active"><a href="#" aria-current="page">Yazi</a></li></ul></nav></div></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2025-08-13T09:45:08.000Z" title="2025/8/13 下午5:45:08">2025-08-13</time>發表</span><span class="level-item"><time dateTime="2025-08-26T07:21:22.197Z" title="2025/8/26 下午3:21:22">2025-08-26</time>更新</span><span class="level-item">1 分鐘讀完 (大約130個字)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2025/08/13/news-0813/">利用 Windows 的 Powershell 安裝 Yazi (是一種 terminal file manager)</a></p><div class="content"><p>使用 Powershell 安裝 Yazi (是一種 <code>**terminal file manager**</code> ，可以看圖片、影片)</p>
 <ol>
 <li>fd:</li>
 </ol>
@@ -48,31 +48,51 @@
 <blockquote>
 <p>winget install fzf</p>
 </blockquote>
+<ol start="4">
+<li></li>
+</ol>
 <blockquote>
 <p>winget install sxyazi.yazi</p>
 </blockquote>
+<ol start="5">
+<li></li>
+</ol>
 <blockquote>
 <p>winget install Gyan.FFmpeg 7zip.7zip jqlang.jq ajeetdsouza.zoxide ImageMagick.ImageMagick</p>
 </blockquote>
+<ol start="6">
+<li></li>
+</ol>
 <blockquote>
 <p>zoxide init powershell | clip</p>
 <p>code $profile</p>
 </blockquote>
+<ol start="7">
+<li></li>
+</ol>
 <blockquote>
 <p>. $profile<br>cd .\desktop<br>cls<br>z desk<br>cls</p>
 </blockquote>
+<ol start="8">
+<li></li>
+</ol>
 <blockquote>
 <p>yazi</p>
 </blockquote>
 <ol start="9">
-<li>設定環境變數</li>
-</ol>
+<li><p>設定環境變數</p>
 <blockquote>
 <p>YAZI_FILE_ONE C:\Program Files\Git\usr\bin\file.exe</p>
 </blockquote>
+</li>
+<li></li>
+</ol>
 <blockquote>
 <p>sudo SETX YAZI_FILE_ONE “C:\Program Files\Git\usr\bin\file.exe” &#x2F;M</p>
 </blockquote>
+<ol start="11">
+<li></li>
+</ol>
 <blockquote>
 <p>winget search powershell</p>
 <p>查詢：<br>Windows Terminal  (&gt;&#x3D;1.22.10352.0)         Microsoft.WindowsTerminal        1.22.12111.0</p>
